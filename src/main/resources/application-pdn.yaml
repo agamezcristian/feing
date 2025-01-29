@@ -1,0 +1,5 @@
+server:
+  port: 8081
+
+external:
+  service: micro1

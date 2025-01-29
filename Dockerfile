@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY ./build/libs/feing-0.0.1-SNAPSHOT.jar .
 
+ENV PROFILE=pdn
+
 EXPOSE 8081
 
 ENTRYPOINT ["java", "-jar", "feing-0.0.1-SNAPSHOT.jar"]
